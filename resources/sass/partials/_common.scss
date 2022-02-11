@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+
+.container {
+    width: 100%;
+}
+.container-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.marg-right-10{
+    margin-right: 10px;
+}
+.flex{
+    display: flex;
+}
+.justify-contente-end{
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+    // display: flex;
+}
+li{
+    display: inline-block;
+}

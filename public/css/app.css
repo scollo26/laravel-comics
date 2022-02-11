@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.marg-right-10 {
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-contente-end {
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+main {
+  padding-top: 1.6em;
+}
+main .jambo {
+  background-image: url("../../img/jumbotron.jpg");
+  height: 400px;
+}
+
+header .header-top {
+  background-color: #0082F9;
+  color: white;
+  padding-top: 5px;
+  font-weight: bold;
+}
+header .header-center {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 2em;
+  display: flex;
+  vertical-align: middle;
+}
+header .header-center img {
+  width: 100px;
+}
+header .container {
+  height: 10vh;
+  font-size: 1em;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+header .container > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+}
+header .container > ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.7em 1em;
+  transition: all 0.4s;
+  color: black;
+  height: 6em;
+}
+header .container > ul li a:hover, header .container > ul li a:active, header .container > ul li a.active {
+  color: #0082F9;
+  border-bottom: 3px solid #0082F9;
+}

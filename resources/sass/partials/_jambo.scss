@@ -1,0 +1,9 @@
+main{
+    padding-top: 1.6em;
+    .jambo{
+        // background-image: url("{{ asset('img/jumbotron.jpg')}}");
+        background-image: url("../../img/jumbotron.jpg");
+        height: 400px;
+        
+    }
+}
