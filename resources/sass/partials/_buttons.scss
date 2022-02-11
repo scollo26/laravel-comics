@@ -1,0 +1,18 @@
+.load{
+    padding: 4em;
+    width: 100%;
+    
+}
+.button {
+    
+    width: 180px;
+    background-color: #0082F9; 
+    color: white; 
+    border: 2px solid #0082F9;
+    padding: 10px;
+    &:hover {
+    background-color: #303030;
+    color: white;
+    }
+
+}  

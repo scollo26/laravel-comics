@@ -1,0 +1,31 @@
+.icons{
+        
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#0082F9;
+
+        li {
+            padding: 3em;
+            img {
+                margin-right: 10px;
+                width: 45px;
+                vertical-align: middle;
+                } 
+            a {
+                display: block;
+                text-decoration: none;
+                padding: 5em ;
+            }
+            p{
+                display: inline;
+            }
+            #small{
+                width: 35px;
+            }
+    }
+}
+    
+} 

@@ -1,6 +1,6 @@
 <header>
     <div class="header-top">
-        <div class=" container-80  flex justify-contente-end">
+        <div class=" container-70  flex justify-contente-end">
             <span class="marg-right-10">DC POWER VISA© </span> 
             <span>ADDITIONAL DC SITES</span>
         </div>
@@ -14,7 +14,7 @@
             <ul>
                 <li><a href="#">Characters</a></li>
                 <li ><a class="active" href="#">Comics</a></li>
-                <li><a href="#">Movies</a></li>
+                <li><a href="/movies">Movies</a></li>
                 <li><a href="#">Tv</a></li>
                 <li><a href="#">Games</a></li>
                 <li><a href="#">Collectibles</a></li>

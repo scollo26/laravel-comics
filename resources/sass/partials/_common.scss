@@ -12,8 +12,8 @@ html {
 .container {
     width: 100%;
 }
-.container-80 {
-    width: 80%;
+.container-70 {
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -24,6 +24,14 @@ html {
 .marg-right-10{
     margin-right: 10px;
 }
+.marg-top-3{
+    margin-top: 3em;
+
+}
+.marg-bottom-2{
+    margin-bottom: 2em;
+}
+
 .flex{
     display: flex;
 }

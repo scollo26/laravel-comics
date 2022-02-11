@@ -25,3 +25,9 @@ $data = ['comics' => config('comics'), 'nomePagina' => 'DC COMIC - Home'];
 
 return view('guest.home', $data);
 })->name('home');
+
+
+
+Route::get('/movies', function(){
+    return view('movies');
+});

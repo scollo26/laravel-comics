@@ -13,6 +13,7 @@
         @include('guest.partials.header')
 
         @yield('content')
+        @yield('main_section')
 
         @include('guest.partials.footer')
     </div>
