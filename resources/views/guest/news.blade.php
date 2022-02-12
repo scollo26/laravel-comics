@@ -1,7 +1,8 @@
 @extends('guest.layout.base')
 
 @section('documentTitle')
-DC Comics | News
+{{-- DC Comics | News --}}
+{{$nomePagina}}
 
 @endsection
 

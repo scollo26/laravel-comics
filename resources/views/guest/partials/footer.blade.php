@@ -3,13 +3,13 @@
         <div class="container">
             <ul class="col">
                 <p>DC COMICS</p>
-                <li><a href="/tv">Characters</a></li>
-                <li><a href="{{route('Comics')}}">Comics</a></li>
-                <li><a href="{{route('Comics')}}">Movies</a></li>
-                <li><a href="/Comics">TV</a></li>
-                <li><a href="">Games</a></li>
-                <li><a href="">Videos</a></li>
-                <li><a href="">News</a></li>
+                <li><a href="{{route('Characters')}}">Characters</a></li>
+                <li><a href="{{route('comics')}}">Comics</a></li>
+                <li><a href="{{route('movies')}}">Movies</a></li>
+                <li><a href="{{route('tv')}}">TV</a></li>
+                <li><a href="{{route('games')}}">Games</a></li>
+                <li><a href="{{route('videos')}}">Videos</a></li>
+                <li><a href="{{route('news')}}">News</a></li>
                 <p>DC SHOP</p>
                 <li><a href="">Shop DC</a></li>
                 <li><a href="">Shop DC Collectibles</a></li>

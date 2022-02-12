@@ -27,6 +27,12 @@ footer {
                         a{
                             text-decoration: none;
                             color: gray;
+                            &:hover,
+                            &:active,
+                            &.active {
+                            color: #0082F9;
+                            
+                            }
                         }
                     }
                 }     

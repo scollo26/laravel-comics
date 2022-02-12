@@ -18,59 +18,68 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-
-
-
 $data = ['comics' => config('comics'), 'nomePagina' => 'DC COMIC - Home'];
+// $data = ['comics' => config('comics')];
 
-return view('guest.home', $data);
-})->name('home');
+return view('guest.comics', $data);
+})->name('comics');
 
 
 
 Route::get('/Characters', function(){
-    return view('guest.Characters');
+
+    $data = ['nomePagina' => 'DC COMIC - Characters'];
+    return view('guest.Characters', $data);
 })->name('Characters');
 
 
-Route::get('/Comics', function(){
-    return view('guest.Comics');
-})->name('Comics');
+// Route::get('/home', function(){
+//     $data = ['comics' => config('comics')];
+//     return view('guest.home',$data);
+// })->name('home');
 
 Route::get('/movies', function(){
-    return view('guest.movies');
+    $data = ['nomePagina' => 'DC COMIC - movies'];
+    return view('guest.movies', $data);
 })->name('movies');
 
 
 Route::get('/tv', function(){
-    return view('guest.tv');
+    $data = ['nomePagina' => 'DC COMIC - tv'];
+    return view('guest.tv', $data);
 })->name('tv');
 
 Route::get('/games', function(){
-    return view('guest.games');
+    $data = ['nomePagina' => 'DC COMIC - games'];
+    return view('guest.games', $data);
 })->name('games');
 
 Route::get('/collectibles', function(){
-    return view('guest.collectibles');
+    $data = ['nomePagina' => 'DC COMIC - collectibles'];
+    return view('guest.collectibles', $data);
 })->name('collectibles');
 
 Route::get('/videos', function(){
-    return view('guest.videos');
+    $data = ['nomePagina' => 'DC COMIC - videos'];
+    return view('guest.videos', $data);
 })->name('videos');
 
 
 Route::get('/fans', function(){
-    return view('guest.fans');
+    $data = ['nomePagina' => 'DC COMIC - fans'];
+    return view('guest.fans', $data);
 })->name('fans');
 
 
 Route::get('/news', function(){
-    return view('guest.news');
+    $data = ['nomePagina' => 'DC COMIC - news'];
+    return view('guest.news', $data);
 })->name('news');
 
 
 Route::get('/shop', function(){
-    return view('guest.shop');
+    $data = ['nomePagina' => 'DC COMIC - shop'];
+    return view('guest.shop',$data);
 })->name('shop');
 
 
