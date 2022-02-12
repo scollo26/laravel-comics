@@ -1,12 +1,10 @@
 @extends('guest.layout.base')
 
 @section('documentTitle')
-DC Comics | Movies
+DC Comics | Games
 
 @endsection
 
 @section('content')
-    <h1>Movies</h1>
-    <h2>fulvio</h2>
+    <h1>Games</h1>
 @endsection
-

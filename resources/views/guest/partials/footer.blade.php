@@ -3,10 +3,10 @@
         <div class="container">
             <ul class="col">
                 <p>DC COMICS</p>
-                <li><a href="">Characters</a></li>
-                <li><a href="">Comics</a></li>
-                <li><a href="">Movies</a></li>
-                <li><a href="">TV</a></li>
+                <li><a href="/tv">Characters</a></li>
+                <li><a href="{{route('Comics')}}">Comics</a></li>
+                <li><a href="{{route('Comics')}}">Movies</a></li>
+                <li><a href="/Comics">TV</a></li>
                 <li><a href="">Games</a></li>
                 <li><a href="">Videos</a></li>
                 <li><a href="">News</a></li>

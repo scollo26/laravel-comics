@@ -12,16 +12,16 @@
             <img src="{{asset('img/dc-logo.png')}}" alt="">
             
             <ul>
-                <li><a href="#">Characters</a></li>
-                <li ><a class="active" href="#">Comics</a></li>
+                <li><a href="/Characters">Characters</a></li>
+                <li ><a class="active" href="/Comics">Comics</a></li>
                 <li><a href="/movies">Movies</a></li>
-                <li><a href="#">Tv</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Collectibles</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Fans</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Shop <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="/tv">Tv</a></li>
+                <li><a href="/games">Games</a></li>
+                <li><a href="/collectibles">Collectibles</a></li>
+                <li><a href="/videos">Videos</a></li>
+                <li><a href="/fans">Fans</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="/shop">Shop <i class="fa-solid fa-angle-down"></i></a></li>
                 <li><a class="active"  href="#">Search <i class="fa-solid fa-magnifying-glass"></i></a> </li>
             </ul>
         </div>

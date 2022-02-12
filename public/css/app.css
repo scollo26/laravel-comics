@@ -53,7 +53,7 @@ main {
   padding-top: 1.6em;
 }
 main .jambo {
-  background-image: url("../../img/jumbotron.jpg");
+  background-image: url("/img/jumbotron.jpg");
   height: 500px;
   background-size: cover;
 }

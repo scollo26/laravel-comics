@@ -28,6 +28,50 @@ return view('guest.home', $data);
 
 
 
+Route::get('/Characters', function(){
+    return view('guest.Characters');
+})->name('Characters');
+
+
+Route::get('/Comics', function(){
+    return view('guest.Comics');
+})->name('Comics');
+
 Route::get('/movies', function(){
-    return view('movies');
-});
+    return view('guest.movies');
+})->name('movies');
+
+
+Route::get('/tv', function(){
+    return view('guest.tv');
+})->name('tv');
+
+Route::get('/games', function(){
+    return view('guest.games');
+})->name('games');
+
+Route::get('/collectibles', function(){
+    return view('guest.collectibles');
+})->name('collectibles');
+
+Route::get('/videos', function(){
+    return view('guest.videos');
+})->name('videos');
+
+
+Route::get('/fans', function(){
+    return view('guest.fans');
+})->name('fans');
+
+
+Route::get('/news', function(){
+    return view('guest.news');
+})->name('news');
+
+
+Route::get('/shop', function(){
+    return view('guest.shop');
+})->name('shop');
+
+
+
