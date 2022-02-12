@@ -6,49 +6,62 @@ header{
         padding-top: 5px;
         font-weight: bold;
     }
-    .header-center{
-       
+    .header-center{ 
         margin: 0 auto;
         width: 80%;
         padding-top: 2em;
         display: flex;
         vertical-align: middle;
-        
-        img{
-            
-            width: 100px;
-            } 
-        
-
-    }
-    .container {
-        
-        height: 10vh;
-        font-size: 1em;
-        padding: 10px 0;
-        display: flex;
-        justify-content: space-around;
-            & > ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 3em;
-          li a {
-            display: block;
-            text-decoration: none;
-            padding: 0.7em 1em ;
-            transition: all 0.4s;
-            color: black;
-            height: 6em;
-            &:hover,
-            &:active,
-            &.active {
-            color: #0082F9;
-            border-bottom: 3px solid #0082F9;
-        
-            }
+        .container-sx {
+            width: 30%;
         }
-      }
+        .container-dx{
+            width: 70%;
+            align-items: center;
+            justify-content: flex-end;
+            display: flex;
+            & > ul {
+                list-style: none;
+                padding-top: 3em;
+                li a {
+                    display: block;
+                    text-decoration: none;
+                    padding: 0.7em 1em ;
+                    transition: all 0.4s;
+                    color: black;
+                    height: 6em;
+                    &:hover,
+                    &:active,
+                    &.active {
+                    color: $ColorBlue;
+                    border-bottom: 3px solid $ColorBlue;
+                    
+                    }
+                }
+            }
+            input {
+                height: 15px;
+                outline: none;
+                border: none;
+                border-bottom: 2px solid $ColorBlue;
+                text-align:right;
+                font-weight: bold;
+                color: black;
+                padding: 1em;
+            }
+            img{
+                width: 100px;
+            }  
+        }
+    }
+    input {
+        height: 15px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid $ColorBlue;
+        text-align:right;
+        font-weight: bold;
+        color: black;
+        padding: 1em;
     }
 }

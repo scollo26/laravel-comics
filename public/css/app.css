@@ -49,9 +49,6 @@ li {
   display: inline-block;
 }
 
-main {
-  padding-top: 1.6em;
-}
 main .jambo {
   background-image: url("/img/jumbotron.jpg");
   height: 500px;
@@ -156,24 +153,20 @@ header .header-center {
   display: flex;
   vertical-align: middle;
 }
-header .header-center img {
-  width: 100px;
+header .header-center .container-sx {
+  width: 30%;
 }
-header .container {
-  height: 10vh;
-  font-size: 1em;
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-around;
-}
-header .container > ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
+header .header-center .container-dx {
+  width: 70%;
   align-items: center;
+  justify-content: flex-end;
+  display: flex;
+}
+header .header-center .container-dx > ul {
+  list-style: none;
   padding-top: 3em;
 }
-header .container > ul li a {
+header .header-center .container-dx > ul li a {
   display: block;
   text-decoration: none;
   padding: 0.7em 1em;
@@ -181,9 +174,32 @@ header .container > ul li a {
   color: black;
   height: 6em;
 }
-header .container > ul li a:hover, header .container > ul li a:active, header .container > ul li a.active {
+header .header-center .container-dx > ul li a:hover, header .header-center .container-dx > ul li a:active, header .header-center .container-dx > ul li a.active {
   color: #0082F9;
   border-bottom: 3px solid #0082F9;
+}
+header .header-center .container-dx input {
+  height: 15px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #0082F9;
+  text-align: right;
+  font-weight: bold;
+  color: black;
+  padding: 1em;
+}
+header .header-center .container-dx img {
+  width: 100px;
+}
+header input {
+  height: 15px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #0082F9;
+  text-align: right;
+  font-weight: bold;
+  color: black;
+  padding: 1em;
 }
 
 footer {

@@ -8,9 +8,10 @@
     </div>
     <div class=" header-center">
         
-        <div class="container ">
+        <div class="container-sx ">
             <img src="{{asset('img/dc-logo.png')}}" alt="">
-            
+        </div>
+        <div class="container-dx">
             <ul>
                 <li><a class="{{'Characters' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('Characters')}}">Characters</a></li>
                 <li ><a class="active" href="{{route('comics')}}">Comics</a></li>
@@ -22,7 +23,7 @@
                 <li><a class="{{'fans' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('fans')}}">Fans</a></li>
                 <li><a class="{{'news' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('news')}}">News</a></li>
                 <li><a clas href="{{route('shop')}}">Shop <i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a class="active"  href="#">Search <i class="fa-solid fa-magnifying-glass"></i></a> </li>
+                <li><input type="text" placeholder="Search"><i class="fas fa-search"></i></li>
             </ul>
         </div>
     <div class="header-bottom">
