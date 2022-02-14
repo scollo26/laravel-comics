@@ -1,0 +1,28 @@
+
+.container-products{
+    background-color: black;
+    color: white;
+    padding-top: 2em;
+    .container-product{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card-product{
+            // width: 20%;
+            width: calc(100% / 4 - 40px);
+            margin: 1em;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .description-card{
+        // width: 40%;
+        height: 200px;
+        overflow-y: auto;
+        text-align: center;
+    }
+}

@@ -7,8 +7,7 @@
 
 @section('content')
 <main>
-    <div class="jambo">
-    </div>
+    
     <div class="current-button">
         <button class="button ">CURRENT SERIES</button>
     </div>
@@ -18,7 +17,10 @@
             @foreach ($comics as $item)
                 <div class="card-container">
                     <img src=" {{$item['thumb']}}" alt="">
-                    {{$item["title"]}}
+                    <a href="{{ route('product', $item['id']) }}">{{$item["title"]}}</a> 
+
+
+                    {{-- <h2><a href="{{ route('product', $item['id']) }}">{{ $item['title'] }}</a></h2> --}}
                 </div>
             
             @endforeach 

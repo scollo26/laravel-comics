@@ -21,8 +21,28 @@ Route::get('/', function () {
 $data = ['comics' => config('comics'), 'nomePagina' => 'DC COMIC - Home'];
 // $data = ['comics' => config('comics')];
 
+
+
 return view('guest.comics', $data);
 })->name('comics');
+
+
+Route::get('products/{id}', function($id){
+    $collection = collect(config('comics'));
+    $product = $collection->where('id',$id);
+    if ($product->count() === 0) {
+        abort(404);
+    }
+    $singleProduct= '';
+    foreach ($product as $value) {
+        $singleProduct = $value;
+    }
+    return view ('guest.product',[
+        'product' => $singleProduct,
+        'nomePagina' => $singleProduct['title']
+    ]);
+
+})->name('product');
 
 
 

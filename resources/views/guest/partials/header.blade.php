@@ -14,7 +14,7 @@
         <div class="container-dx">
             <ul>
                 <li><a class="{{'Characters' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('Characters')}}">Characters</a></li>
-                <li ><a class="active" href="{{route('comics')}}">Comics</a></li>
+                <li ><a class="{{'comics' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('comics')}}">Comics</a></li>
                 <li><a class="{{'movies' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('movies')}}">Movies</a></li>
                 <li><a class="{{'tv' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('tv')}}">Tv</a></li>
                 <li><a class="{{'games' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('games')}}">Games</a></li>
@@ -26,7 +26,10 @@
                 <li><input type="text" placeholder="Search"><i class="fas fa-search"></i></li>
             </ul>
         </div>
+    </div>
     <div class="header-bottom">
+        <div class="jambo">
+        </div>
 
     </div>
 </header>
