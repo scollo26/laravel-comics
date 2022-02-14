@@ -16,8 +16,8 @@
         <div class="cards-container">
             @foreach ($comics as $item)
                 <div class="card-container">
-                    <img src=" {{$item['thumb']}}" alt="">
-                    <a href="{{ route('product', $item['id']) }}">{{$item["title"]}}</a> 
+                    <a href="{{ route('product', $item['id']) }}"><img src=" {{$item['thumb']}}" alt=""></a> 
+                    {{$item["title"]}}
 
 
                     {{-- <h2><a href="{{ route('product', $item['id']) }}">{{ $item['title'] }}</a></h2> --}}
